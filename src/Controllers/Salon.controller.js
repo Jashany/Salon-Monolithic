@@ -6,7 +6,7 @@ import NodeGeocoder from "node-geocoder";
 import bycrypt from "bcryptjs";
 import otpGenerator from "otp-generator";
 import google from "googleapis";
-import sheets, { spreadsheetId } from "./sheetClient.js";
+// import sheets, { spreadsheetId } from "./sheetClient.js";
 import AppointmentModel from "../Models/Appointments.js";
 import ServiceArtist from "../Models/ServiceArtist.js";
 import ArtistModel from "../Models/Artist.js";
