@@ -148,6 +148,11 @@ app.post("/api/addFcmToken", async (req, res) => {
   }
 });
 
+
+app.get("/test", (req, res) => {
+  res.send("API is working");
+});
+
 app.use(notfound);
 app.use(errorHandler);
 
