@@ -67,15 +67,15 @@ app.use(
 //     next();
 // });
 
-// app.use("/api/auth", Authrouter);
-// app.use("/api/artist", Artistrouter);
-// app.use("/api/service", Servicerouter);
-// app.use("/api/appointment", Appointmentrouter);
-// app.use("/api/salon", Salonrouter);
-// app.use("/api/offer", Offerrouter);
-// app.use("/api/review", Reviewrouter);
-// app.use("/api/admin", Adminrouter);
-// app.use("/api/payments", paymentRouter);
+app.use("/api/auth", Authrouter);
+app.use("/api/artist", Artistrouter);
+app.use("/api/service", Servicerouter);
+app.use("/api/appointment", Appointmentrouter);
+app.use("/api/salon", Salonrouter);
+app.use("/api/offer", Offerrouter);
+app.use("/api/review", Reviewrouter);
+app.use("/api/admin", Adminrouter);
+app.use("/api/payments", paymentRouter);
 
 // // Example route to send a WhatsApp message (for testing)
 // app.post("/api/whatsapp/send", async (req, res) => {
